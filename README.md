@@ -5,4 +5,10 @@ Este projeto visa representar graficamente a análise das operações de uma det
 
 Suponha que você esteja desenhando uma grade de 16 divisões e você possa escolher cinco algoritmos diferentes para fazer isso. Se escolher o primeiro algoritmo, levará um tempo de execução de O(log n) para desenhar a grade. Você pode fazer dez operações por segundo. Com o tempo de execução O(log n), você levará quatro operações para desenhar uma grade com 16 divisões (log 16 é 4). Logo, levará 0,4 segundos para desenhar a grade. E se tiver que desenhar 1024 divisões? Levará 1024 = 10 operações, ou um segundo para desenhar uma grade de 1024 divisões. Quanto tempo isso leva em segundos?
 
+Principais pontos:
+- A rapidez de um algoritmo não é medida em segundos, e sim pelo crescimento no número de operações;
+- Em vez disso, discutimos sobre o quão rapidamente o tempo de execução de um algoritmo aumenta conforme o número de elementos cresce;
+- O tempo de execução em algoritmos é expresso na notação Big O;
+- O(log n) é mais rápido que O(n), e O(log n) fica ainda mais rápido conforme a lista aumenta.
+
 Nota: Ainda não adicionei uma legenda para incluir os segundos e minutos, porém a representação gráfica está correta. A próxima atualização será com essas informações melhor representadas.
